@@ -1,0 +1,97 @@
+Captured output (sample data: synthetic leads; Puentara is a fictional company).
+Commands run from the project folder on Windows 11, Node v26.13.0.
+
+$ npm run demo
+
+> bilingual-lead-followup@1.0.0 demo
+> node scripts/demo.js
+
+Puentara lead follow-up (Puentara is a fictional company; all data is synthetic sample data)
+Drafts only: nothing is sent.
+Run time: 2026-11-24 15:00 UTC
+
+Drafts ready: 11 · Appointment reminders: 2 · Waiting for local hours: 1 · Held: 3 (missing time zone 1, invalid time zone 1, missing first name 1) · Opted out: 7 · Routed to support: 1
+Reply needs a person: 2 · Not due yet: 3 · Stopped: 2
+
+Drafts ready (11), each in the lead's language:
+   2  EN  morgan.hayes@example.com        Follow-up 1                  now: Tue Nov 24, 10:00 (New York time)
+   3  ES  lucia.ramirez@example.com       Follow-up 1                  now: Tue Nov 24, 10:00 (Bogotá time)
+   4  EN  rowan.price@example.com         Follow-up 2                  now: Tue Nov 24, 09:00 (Chicago time)
+   5  ES  mariana.vargas@example.com      Follow-up 2                  now: Tue Nov 24, 09:00 (Mexico City time)
+   6  EN  taylor.brooks@example.com       Final follow-up              now: Tue Nov 24, 10:00 (New York time)
+   7  ES  isabela.castro@example.com      Final follow-up              now: Tue Nov 24, 10:00 (Lima time)
+   9  ES  andres.ortiz@example.com        Follow-up 1                  now: Tue Nov 24, 10:00 (Bogotá time)
+  10  EN  skyler.reed@example.com         Follow-up 1                  now: Tue Nov 24, 09:00 (Chicago time)
+  14  EN  cameron.holt@example.com        Questions: defer to a call   now: Tue Nov 24, 10:00 (New York time)  [needs rep]
+  15  ES  nicolas.acosta@example.com      Questions: defer to a call   now: Tue Nov 24, 09:00 (Mexico City time)  [needs rep]
+  33  EN  parker.gray@example.com         Follow-up 1                  now: Tue Nov 24, 10:00 (New York time)
+
+Appointment reminders (2):
+  26  EN  avery.collins@example.com       Appointment reminder         now: Tue Nov 24, 10:00 (New York time)
+  27  ES  daniela.suarez@example.com      Appointment reminder         now: Tue Nov 24, 10:00 (Bogotá time)
+
+Waiting for the lead's local hours (1), not drafted yet:
+   8  EN  peyton.ford@example.com         Follow-up 1                  next window: Tue Nov 24, 09:00 (Los Angeles time)
+
+Files written:
+  output/queue.csv
+  output/drafts.html
+  output/leads_after_run.csv
+  output/suppression.csv
+
+$ npm run demo -- --lang es
+
+> bilingual-lead-followup@1.0.0 demo
+> node scripts/demo.js --lang es
+
+Seguimiento de prospectos de Puentara (Puentara es una empresa ficticia; todos los datos son de muestra, sintéticos)
+Solo borradores: no se envía nada.
+Hora de ejecución: 2026-11-24 15:00 UTC
+
+Borradores listos: 11 · Recordatorios de cita: 2 · Esperan el horario local: 1 · En espera: 3 (falta zona horaria 1, zona horaria no válida 1, falta nombre 1) · Dados de baja: 7 · Pasados a soporte: 1
+Respuestas que necesitan a una persona: 2 · Aún no toca: 3 · Detenidos: 2
+
+Borradores listos (11), cada uno en el idioma del prospecto:
+   2  EN  morgan.hayes@example.com        Seguimiento 1                ahora: mar 24 nov, 10:00 (hora de Nueva York)
+   3  ES  lucia.ramirez@example.com       Seguimiento 1                ahora: mar 24 nov, 10:00 (hora de Bogotá)
+   4  EN  rowan.price@example.com         Seguimiento 2                ahora: mar 24 nov, 09:00 (hora de Chicago)
+   5  ES  mariana.vargas@example.com      Seguimiento 2                ahora: mar 24 nov, 09:00 (hora de Ciudad de México)
+   6  EN  taylor.brooks@example.com       Último seguimiento           ahora: mar 24 nov, 10:00 (hora de Nueva York)
+   7  ES  isabela.castro@example.com      Último seguimiento           ahora: mar 24 nov, 10:00 (hora de Lima)
+   9  ES  andres.ortiz@example.com        Seguimiento 1                ahora: mar 24 nov, 10:00 (hora de Bogotá)
+  10  EN  skyler.reed@example.com         Seguimiento 1                ahora: mar 24 nov, 09:00 (hora de Chicago)
+  14  EN  cameron.holt@example.com        Preguntas: dejarlas para la llamada  ahora: mar 24 nov, 10:00 (hora de Nueva York)  [necesita al asesor]
+  15  ES  nicolas.acosta@example.com      Preguntas: dejarlas para la llamada  ahora: mar 24 nov, 09:00 (hora de Ciudad de México)  [necesita al asesor]
+  33  EN  parker.gray@example.com         Seguimiento 1                ahora: mar 24 nov, 10:00 (hora de Nueva York)
+
+Recordatorios de cita (2):
+  26  EN  avery.collins@example.com       Recordatorio de cita         ahora: mar 24 nov, 10:00 (hora de Nueva York)
+  27  ES  daniela.suarez@example.com      Recordatorio de cita         ahora: mar 24 nov, 10:00 (hora de Bogotá)
+
+Esperan el horario local del prospecto (1), aún sin borrador:
+   8  EN  peyton.ford@example.com         Seguimiento 1                próxima franja: mar 24 nov, 09:00 (hora de Los Ángeles)
+
+Archivos creados:
+  output/queue.csv
+  output/drafts.html
+  output/leads_after_run.csv
+  output/suppression.csv
+
+$ npm run eval
+
+> bilingual-lead-followup@1.0.0 eval
+> node scripts/eval.js
+
+Opt-out detector check (sample data: synthetic, hand-written replies)
+Replies: 55 (31 opt-outs, 24 other replies)
+Opt-outs caught: 31 of 31
+  EN: caught 15 of 15; false alarms 3 of 12
+  ES: caught 16 of 16; false alarms 2 of 12
+False alarms (would be blocked, a rep can check): 5
+  R24 EN  "Can we stop by your office on Friday?"  (matched "stop")
+  R25 EN  "Not interested in team cards, but invoicing yes."  (matched "not interested")
+  R34 ES  "No me llamen antes de las 10, por favor."  (matched "no me llamen")
+  R52 EN  "Can you add my partner to your mailing list?"  (matched "mailing list")
+  R55 ES  "No me envíen el PDF, mejor el enlace."  (matched "no me envíen")
+Result: every opt-out in this labeled sample set was caught. This is a keyword list:
+it will miss wordings that are not in it, so every reply still goes to a person.

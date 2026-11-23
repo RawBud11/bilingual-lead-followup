@@ -1,0 +1,56 @@
+id,language,reply,expected
+R01,en,Unsubscribe,opt_out
+R02,en,Please remove me from your list.,opt_out
+R03,en,Don't contact me again.,opt_out
+R04,en,Do not email me about this.,opt_out
+R05,en,"Not interested, thanks.",opt_out
+R06,en,STOP,opt_out
+R07,en,Please stop emailing me.,opt_out
+R08,en,I’m not interested anymore.,opt_out
+R09,en,dont contact me,opt_out
+R10,en,Take me off your mailing list please,opt_out
+R11,es,Baja,opt_out
+R12,es,Quiero darme de baja.,opt_out
+R13,es,"Por favor, quiero dar de baja este correo.",opt_out
+R14,es,"No me contacten más, gracias.",opt_out
+R15,es,No me escriban por favor,opt_out
+R16,es,NO ME LLAMEN,opt_out
+R17,es,Dejen de escribirme.,opt_out
+R18,es,No estoy interesada.,opt_out
+R19,es,Cancelar suscripción,opt_out
+R20,es,cancelar suscripcion,opt_out
+R21,en,Thanks! Thursday at 10 works for me.,keep
+R22,en,Can you send me the booking link again?,keep
+R23,en,"I'm interested, but next month is better.",keep
+R24,en,Can we stop by your office on Friday?,keep
+R25,en,"Not interested in team cards, but invoicing yes.",keep
+R26,en,Who else uses Puentara for invoicing?,keep
+R27,en,Please call me after 2 pm.,keep
+R28,en,"Sounds good, see you then.",keep
+R29,en,I booked a time for Tuesday.,keep
+R30,en,Does it work with clients in Mexico?,keep
+R31,es,"Gracias, el jueves a las 10 me queda bien.",keep
+R32,es,¿Me pueden mandar otra vez el enlace?,keep
+R33,es,"Sí me interesa, pero el próximo mes.",keep
+R34,es,"No me llamen antes de las 10, por favor.",keep
+R35,es,¿Baja el precio si somos varios?,keep
+R36,es,Ya agendé para el martes.,keep
+R37,es,¿Funciona con clientes en Estados Unidos?,keep
+R38,es,"Perfecto, nos vemos.",keep
+R39,es,Mejor escríbeme el lunes.,keep
+R40,es,Me interesa la facturación internacional.,keep
+R41,es,No me manden más correos,opt_out
+R42,en,Please opt me out,opt_out
+R43,en,Remove us from your mailing list,opt_out
+R44,es,Bórrenme de su lista,opt_out
+R45,en,Do not contact us,opt_out
+R46,es,No quiero recibir más correos,opt_out
+R47,es,Sáquenme de su lista por favor,opt_out
+R48,en,Leave me alone,opt_out
+R49,es,No me envíen más mensajes,opt_out
+R50,en,"No thanks, we're all set",opt_out
+R51,es,"No, gracias",opt_out
+R52,en,Can you add my partner to your mailing list?,keep
+R53,en,"Thanks, I'll check the link today.",keep
+R54,es,"Gracias, reviso el enlace hoy.",keep
+R55,es,"No me envíen el PDF, mejor el enlace.",keep

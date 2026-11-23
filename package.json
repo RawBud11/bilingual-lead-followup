@@ -1,0 +1,21 @@
+{
+  "name": "bilingual-lead-followup",
+  "version": "1.0.0",
+  "description": "Google Sheets lead follow-up drafts in English and Spanish, with opt-out, local-hours and template safety checks (Apps Script). Demo company Puentara is fictional.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "demo": "node scripts/demo.js",
+    "eval": "node scripts/eval.js",
+    "seed": "node scripts/seed.js",
+    "bundle": "node scripts/bundle.js"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
+}

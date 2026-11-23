@@ -1,0 +1,33 @@
+First name,Company,Email,Phone,Language,Time zone,Interest,Rep name,Requested on,Status,Opt-out,Touches,Last drafted,Next due,Appointment,Reminder drafted,Notes,Last reply
+Morgan,Blue Kettle Catering,morgan.hayes@example.com,+1-555-0140,EN,America/New_York,international payments,Lucía Demo,2026-11-23,New,,0,,,,,Wants to invoice US clients faster.,
+Lucía,Contabilidad Brisa,lucia.ramirez@example.com,+1-555-0118,ES,America/Bogota,invoicing,Lucía Demo,2026-11-23,New,,0,,,,,Quiere facturar a clientes en EE. UU.,
+Rowan,Blue Kettle Catering,rowan.price@example.com,+1-555-0175,EN,America/Chicago,general,Sam Demo,2026-11-06,Contacted,,1,2026-11-19,,,,,
+Mariana,Jardines Sol,mariana.vargas@example.com,+1-555-0153,ES,America/Mexico_City,general,Lucía Demo,2026-11-08,Contacted,,1,2026-11-19,,,,,
+Taylor,North Pine Design,taylor.brooks@example.com,+1-555-0111,EN,America/New_York,invoicing,Lucía Demo,2026-11-07,Contacted,,2,2026-11-13,,,,,
+Isabela,Jardines Sol,isabela.castro@example.com,+1-555-0143,ES,America/Lima,invoicing,Sam Demo,2026-11-09,Contacted,,2,2026-11-13,,,,,
+Peyton,Lantern Bookkeeping,peyton.ford@example.com,+1-555-0191,EN,America/Los_Angeles,general,Sam Demo,2026-11-23,New,,0,,,,,"Design studio, 4 people.",
+Andrés,Diseño Ceiba,andres.ortiz@example.com,+1-555-0148,,America/Bogota,invoicing,Sam Demo,2026-11-23,New,,0,,,,,Quiero ver cómo cobrar a mis clientes de afuera.,
+Skyler,North Pine Design,skyler.reed@example.com,+1-555-0110,,America/Chicago,international payments,Lucía Demo,2026-11-23,New,,0,,,,,,
+Jamie,Bright Desk Studio,jamie.foster@example.com,+1-555-0146,EN,,invoicing,Lucía Demo,2026-11-23,New,,0,,,,,Met at a webinar.,
+Gabriela,Café Montaña Eventos,gabriela.mendoza@example.com,+1-555-0170,ES,Hora del Este,team cards,Lucía Demo,2026-11-23,New,,0,,,,,,
+,Bright Desk Studio,hayden.shaw@example.com,+1-555-0188,EN,America/New_York,invoicing,Sam Demo,2026-11-23,New,,0,,,,,Only left a company name.,
+Cameron,Lantern Bookkeeping,cameron.holt@example.com,+1-555-0181,EN,America/New_York,team cards,Lucía Demo,2026-11-23,New,,0,,,,,How much does it cost per invoice? Any fees for international payments?,
+Nicolás,Diseño Ceiba,nicolas.acosta@example.com,+1-555-0160,ES,America/Mexico_City,international payments,Lucía Demo,2026-11-23,New,,0,,,,,¿Cuánto cuesta para un equipo de 3? ¿Me aprueban rápido?,
+Camila,Jardines Sol,camila.rojas@example.com,+1-555-0103,ES,America/Bogota,invoicing,Sam Demo,2026-11-20,New,,0,,,,,"Perdí mi tarjeta, alguien la está usando.",
+Sage,Lantern Bookkeeping,sage.bennett@example.com,+1-555-0196,EN,America/Chicago,team cards,Lucía Demo,2026-11-08,Replied,,1,2026-11-20,,,,,"Sounds good, can we talk Thursday?"
+Santiago,Ediciones Ñandú,santiago.munoz@example.com,+1-555-0107,ES,America/Lima,team cards,Sam Demo,2026-11-05,Replied,,1,2026-11-20,,,,,¿La app funciona en Android?
+Jordan,Pixel Harbor Media,jordan.blake@example.com,+1-555-0125,EN,America/New_York,general,Sam Demo,2026-11-06,Contacted,,1,2026-11-19,,,,,Please remove me from your list.
+Joaquín,Café Montaña Eventos,joaquin.rios@example.com,+1-555-0123,ES,America/Bogota,general,Lucía Demo,2026-11-09,Contacted,,1,2026-11-19,,,,,Por favor no me escriban más.
+Valentina,Traducciones Faro,valentina.diaz@example.com,+1-555-0186,ES,America/Mexico_City,international payments,Sam Demo,2026-11-08,Contacted,,1,2026-11-19,,,,,Cancelar suscripción
+Renata,Diseño Ceiba,renata.silva@example.com,+1-555-0193,ES,America/Lima,general,Lucía Demo,2026-11-23,No contactar,,0,,,,,,
+Logan,Oak & Ink Copywriting,logan.wells@example.com,+1-555-0105,EN,America/Chicago,general,Sam Demo,2026-11-23,New,Yes,0,,,,,,
+Jordan,Pixel Harbor Media,jordan.blake@example.com,+1-555-0125,EN,America/New_York,invoicing,Sam Demo,2026-11-23,New,,0,,,,,Second form submission.,
+Casey,Summit Lawn Care,casey.turner@example.com,+1-555-0169,EN,America/New_York,team cards,Lucía Demo,2026-11-08,Booked,,1,2026-11-19,,2026-11-25 10:00,,,"Actually, unsubscribe me. Not interested anymore."
+Avery,Oak & Ink Copywriting,avery.collins@example.com,+1-555-0117,EN,America/New_York,invoicing,Lucía Demo,2026-11-07,Booked,,1,2026-11-19,,2026-11-25 10:00,,,
+Daniela,Taller Arcoíris,daniela.suarez@example.com,+1-555-0139,ES,America/Bogota,general,Lucía Demo,2026-11-06,Booked,,1,2026-11-18,,2026-11-25 15:30,,,
+Sebastián,Café Montaña Eventos,sebastian.herrera@example.com,+1-555-0158,ES,America/Mexico_City,general,Sam Demo,2026-11-05,Booked,,2,2026-11-17,,2026-11-30 11:00,,,
+Drew,Bright Desk Studio,drew.morgan@example.com,+1-555-0161,EN,America/Chicago,international payments,Sam Demo,2026-11-05,Closed,,2,2026-11-10,,,,,
+Quinn,Lantern Bookkeeping,quinn.ellis@example.com,+1-555-0137,EN,America/New_York,international payments,Lucía Demo,2026-11-09,Contacted,,3,2026-11-12,,,,,
+Tomás,Taller Arcoíris,tomas.pena@example.com,+1-555-0134,ES,America/Bogota,team cards,Lucía Demo,2026-11-06,Contacted,,1,2026-11-23,,,,,
+Riley,Bright Desk Studio,riley.parker@example.com,+1-555-0121,EN,America/Chicago,general,Lucía Demo,2026-11-06,Contacted,,1,2026-11-24,,,,Drafted earlier today.,
+Parker,North Pine Design,parker.gray@example.com,+1-555-0165,EN,America/New_York,invoicing,Lucía Demo,2026-11-23,New,,0,,,,,Typed card 0000 1234 5678 9012 and code 482913 into the form by mistake.,
