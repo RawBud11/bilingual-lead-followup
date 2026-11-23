@@ -31,7 +31,7 @@ Prerequisites: [Node.js](https://nodejs.org/) 22.12 or newer and Git. No API key
 On Windows, clone into a short path such as `C:\dev\`. The commands below are the same in PowerShell (including Windows PowerShell 5.1) and bash. Run them one line at a time.
 
 ```
-git clone <repo-url> bilingual-lead-followup
+git clone https://github.com/RawBud11/bilingual-lead-followup.git bilingual-lead-followup
 cd bilingual-lead-followup
 npm install
 npm test
