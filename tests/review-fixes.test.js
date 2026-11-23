@@ -75,12 +75,31 @@ describe("opt-outs logged in Notes", () => {
     "Llamé: pidió que no le escribamos más",
     "Pidió que no le llamen",
     "Dijo que no lo contacten",
+    // Third-person phone opt-outs found after review round 2.
+    "Pidió que lo saquen de la lista",
+    "Dijo que no le interesa",
+    "Me pidió no volver a llamarlo",
+    "Pidió no volverle a escribir",
+    "No quiere que lo llamen más",
+    "No está interesada, cerrar",
+    "Called: asked not to be contacted again",
+    "Spoke to him, asked us not to call",
+    "Please take her off the list",
   ])("%s", (notes) => {
     const d = decide({ notes });
     expect(d.action).toBe("opted_out");
     expect(d.reason.key).toBe("optout.notes");
     expect(src.reasonText(d.reason, "en")).toMatch(/^notes say "/);
     expect(src.reasonText(d.reason, "es")).toMatch(/^las notas dicen "/);
+  });
+
+  test.each([
+    "Le interesa la facturación, llamar el martes",
+    "Quiere que lo llamen el lunes",
+    "Volver a llamar el viernes",
+    "Interested in team cards, asked us to call back Friday",
+  ])("normal note stays a sales lead: %s", (notes) => {
+    expect(decide({ notes }).action).toBe("draft");
   });
 
   test("a notes opt-out also goes on the suppression list", () => {

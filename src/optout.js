@@ -25,6 +25,10 @@ var OPT_OUT_PHRASES = {
     "opt out", "opt me out", "remove us", "take us off", "mailing list", "leave me alone",
     "do not contact us", "don't contact us", "dont contact us", "do not call", "don't call",
     "dont call", "no thanks",
+    // Third person, as a rep writes it in Notes after a call.
+    "asked not to be contacted", "asked not to be called", "asked not to be emailed",
+    "asked us not to call", "asked us not to email", "asked us not to contact",
+    "remove him", "remove her", "remove them", "take him off", "take her off", "take them off",
   ],
   es: [
     "darme de baja", "dar de baja", "no me contacten", "no me escriban", "no me llamen",
@@ -35,13 +39,18 @@ var OPT_OUT_PHRASES = {
     // Third person, as a rep writes it in Notes after a call.
     "no le escribamos", "no le escriban", "no le llamemos", "no le llamen", "no le contactemos",
     "no le contacten", "no lo contacten", "no la contacten", "no lo llamen", "no la llamen",
+    "no le interesa", "no les interesa", "no está interesado", "no está interesada",
   ],
 };
 
 // Spanish verb forms that vary too much for a plain list:
 // "sáquenme de su lista", "sacarme de la lista", "quítenme de esta lista"...
 var OPT_OUT_PATTERNS = [
-  /(^| )(sacar|sacarme|sacarnos|saquenme|saquennos|quitar|quitarme|quitenme|borrar|borrarnos|borrenme) de (la|su|sus|esta|tu|vuestra) lista($| )/,
+  /(^| )(sacar|sacarme|sacarnos|saquenme|saquennos|quitar|quitarme|quitenme|borrar|borrarnos|borrenme|saquen|quiten|borren|saquemos|quitemos|borremos) de (la|su|sus|esta|tu|vuestra|nuestra) lista($| )/,
+  // Notes after a call: "me pidió no volver a llamarlo", "no volverle a escribir".
+  /(^| )no (volver|volverle|volverlo|volverla|volverles) a (llamar|escribir|contactar)[a-z]*($| )/,
+  // "no quiere que lo llamen", "no quieren que les escribamos".
+  /(^| )no quieren? que (lo |la |le |los |las |les )?(llamen|llamemos|escriban|escribamos|contacten|contactemos)($| )/,
 ];
 
 // "Baja" on its own is a common one-word opt-out reply in Spanish. Inside a
